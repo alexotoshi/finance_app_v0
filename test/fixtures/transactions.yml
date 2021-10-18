@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  merchant: MyString
+  note: MyString
+  price: 9.99
+  transaction_date: 2021-10-17
+  food: false
+  gas: false
+  transaction_type: MyString
+
+two:
+  merchant: MyString
+  note: MyString
+  price: 9.99
+  transaction_date: 2021-10-17
+  food: false
+  gas: false
+  transaction_type: MyString
