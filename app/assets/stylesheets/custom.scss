@@ -59,3 +59,32 @@ table {
   border-spacing: 10px 0;
 }
 
+.overview_columns {
+	justify-content: space-between;
+}
+
+.left_column {
+	padding-left: 10px;
+	padding-right: 20px;
+	border-style: groove;
+	background-color: #E4E4E4;
+	position: absolute;
+  	left: 150px;
+  	right: 50px;
+  	width: 35%;
+}
+
+.right_column {
+	padding-left: 20px;
+	padding-right: 10px;
+	border-style: groove;
+	background-color: #EEEEEE;
+	position: absolute;
+  	right: 150px;
+  	width: 45%;
+}
+
+.middle_space_column {
+	position: absolute;
+	width: 10%;
+}
