@@ -1,6 +1,8 @@
 <div class="overview_columns">
   <div class="left_column">
-pie chart here
+    <%= javascript_include_tag "https://www.gstatic.com/charts/loader.js" %>
+    <%= bar_chart(a:1, b:2) %>
+
   </div>
   <div class="middle_space_column"></div>
   <div class="right_column">
