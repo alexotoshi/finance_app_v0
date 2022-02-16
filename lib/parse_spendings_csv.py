@@ -6,7 +6,7 @@ url = 'http://localhost:3000/transactions'
 h = {'Content-Type': 'application/json', 'Accept-Charset': 'UTF-8'}
 # sample_transaction = { 'transaction': {'merchant': 'Chevron', 'note':'just gas', 'price': 54.54, 'transaction_date': '2019-06-01', 'food': 'false', 'gas': 'true', 'transaction_type': 'Chase'} }
 
-spendings_file = open('/Users/aotosh/Documents/Rails_Apps/finance_app_v0/lib/excel_csv/2016_spendings_jun_19.csv')
+spendings_file = open('/Users/aotosh/Documents/Rails_Apps/finance_app_v0/lib/excel_csv/2016_spendings_mar_19.csv')
 csvreader = csv.reader(spendings_file)
 
 # skip heading rows

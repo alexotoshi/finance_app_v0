@@ -1,10 +1,5 @@
 <div class="overview_columns">
-  <div class="left_column">
-    <%= javascript_include_tag "https://www.gstatic.com/charts/loader.js" %>
-    <%= bar_chart(a:1, b:2) %>
-
-  </div>
-  <div class="middle_space_column"></div>
+  
   <div class="right_column">
     <table>
       <thead>
@@ -47,4 +42,10 @@
     <p>Gas: $<%= @gas_total %></p>
     <p>Other: $<%= @total - @gas_total - @food_total %></p>
   </div>
+
+  <div class="left_column">
+    <%= javascript_include_tag "https://www.gstatic.com/charts/loader.js" %>
+    <%= pie_chart(Food:@food_total, Gas:@gas_total, Entertainment:(@total - @gas_total - @food_total)) %>
+  </div>
+  
 </div>
